@@ -316,11 +316,16 @@ Respuesta:
 
 ## Generar evidencia 
 
-Ejecuta el siguiente comando en PowerShell, dentro de la carpeta del repositorio:
+Ejecuta el siguiente comando en PowerShell (Windows) o Bash (Linux), dentro de la carpeta del repositorio:
 
-
+Windows:
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\generar-evidencia.ps1
+```
+Linux:
+```bash
+chmod +x generar-evidencia.sh
+./generar-evidencia.sh```
 ```
 
 En campus virtual subir:
