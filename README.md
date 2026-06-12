@@ -193,7 +193,7 @@ Por ejemplo, agrega una breve descripción del sistema en la siguiente sección:
 
 Escribe aquí una descripción breve del sistema:
 
-> Respuesta del estudiante: ...
+> Respuesta del estudiante: El sistema aplica descuentos a precios de productos dependiendo del tipo de cliente, por ejemplo, un estudiante.
 
 Luego realice un commit:
 
@@ -275,25 +275,21 @@ Responda las siguientes preguntas directamente en este archivo `README.md`.
 ### 1. ¿Cuál es la diferencia entre `main` y `develop` en Git-flow?
 
 Respuesta:
-
 ---
 
 ### 2. ¿Por qué la funcionalidad se desarrolló en una rama `feature` y no directamente en `main`?
 
 Respuesta:
-
 ---
 
 ### 3. ¿Qué hace el comando `git merge --no-ff`?
 
 Respuesta:
-
 ---
 
 ### 4. ¿Qué diferencia habría si Git hiciera un merge con fast-forward?
 
 Respuesta:
-
 ---
 
 ### 5. Después del merge, ¿los commits hechos en `feature/descuento-estudiante` quedan en el historial de `develop`?
