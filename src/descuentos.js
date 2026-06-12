@@ -5,4 +5,11 @@ function calcularTotal(precio, descuento) {
   return precio - descuento;
 }
 
-module.exports = { calcularTotal };
+function calcularPrecioFinal(precio, tipo_cliente) {
+  if (tipo_cliente !== "estudiante") {
+    throw new Error("tipo_cliente no soportado");
+  }
+  return precio * (1-0.15);
+}
+
+module.exports = { calcularTotal, calcularPrecioFinal };
